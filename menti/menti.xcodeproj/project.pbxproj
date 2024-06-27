@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A00CBF2B64ADCB00EEE8F8 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00CBE2B64ADCB00EEE8F8 /* WelcomeScreen.swift */; };
+		B40A22EF2A72DF7700FB550B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22EE2A72DF7700FB550B /* ListViewModel.swift */; };
+		B40A22F12A72DFFD00FB550B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F02A72DFFD00FB550B /* ItemModel.swift */; };
+		B40A22F32A72E02000FB550B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F22A72E02000FB550B /* ListView.swift */; };
+		B40A22F52A72E03600FB550B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F42A72E03600FB550B /* ListRowView.swift */; };
+		B40A22F72A72E06F00FB550B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F62A72E06F00FB550B /* AddView.swift */; };
+		B4295A8A2A6EFB5300696DCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A892A6EFB5300696DCD /* HomeView.swift */; };
+		B4295A8C2A6EFB9D00696DCD /* MedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A8B2A6EFB9D00696DCD /* MedView.swift */; };
+		B4295A8E2A6EFBB900696DCD /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A8D2A6EFBB900696DCD /* ResourcesView.swift */; };
+		B4295A902A6EFBDE00696DCD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A8F2A6EFBDE00696DCD /* ProfileView.swift */; };
+		B4295A922A702B3500696DCD /* countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A912A702B3500696DCD /* countries.swift */; };
+		B42E33032A659FDA004A30DE /* mentiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E33022A659FDA004A30DE /* mentiApp.swift */; };
+		B42E33052A659FDA004A30DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E33042A659FDA004A30DE /* ContentView.swift */; };
+		B42E33072A659FDC004A30DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42E33062A659FDC004A30DE /* Assets.xcassets */; };
+		B42E330A2A659FDC004A30DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42E33092A659FDC004A30DE /* Preview Assets.xcassets */; };
+		B42E33142A659FDC004A30DE /* mentiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E33132A659FDC004A30DE /* mentiTests.swift */; };
+		B42E331E2A659FDC004A30DE /* mentiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E331D2A659FDC004A30DE /* mentiUITests.swift */; };
+		B42E33202A659FDC004A30DE /* mentiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E331F2A659FDC004A30DE /* mentiUITestsLaunchTests.swift */; };
+		B458438C2A72F849000E48EB /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = B458438B2A72F849000E48EB /* AppIcon.appiconset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B42E33102A659FDC004A30DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42E32F72A659FDA004A30DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42E32FE2A659FDA004A30DE;
+			remoteInfo = menti;
+		};
+		B42E331A2A659FDC004A30DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42E32F72A659FDA004A30DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42E32FE2A659FDA004A30DE;
+			remoteInfo = menti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A00CBE2B64ADCB00EEE8F8 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		B40A22EE2A72DF7700FB550B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		B40A22F02A72DFFD00FB550B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B40A22F22A72E02000FB550B /* ListView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = menti/Views/ListView.swift; sourceTree = SOURCE_ROOT; tabWidth = 4; usesTabs = 0; };
+		B40A22F42A72E03600FB550B /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		B40A22F62A72E06F00FB550B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		B4295A442A6ECDB400696DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4295A892A6EFB5300696DCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B4295A8B2A6EFB9D00696DCD /* MedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedView.swift; sourceTree = "<group>"; };
+		B4295A8D2A6EFBB900696DCD /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		B4295A8F2A6EFBDE00696DCD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B4295A912A702B3500696DCD /* countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countries.swift; sourceTree = "<group>"; };
+		B42E32FF2A659FDA004A30DE /* menti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42E33022A659FDA004A30DE /* mentiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiApp.swift; sourceTree = "<group>"; };
+		B42E33042A659FDA004A30DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B42E33062A659FDC004A30DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B42E33092A659FDC004A30DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B42E330F2A659FDC004A30DE /* mentiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42E33132A659FDC004A30DE /* mentiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiTests.swift; sourceTree = "<group>"; };
+		B42E33192A659FDC004A30DE /* mentiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42E331D2A659FDC004A30DE /* mentiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiUITests.swift; sourceTree = "<group>"; };
+		B42E331F2A659FDC004A30DE /* mentiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B458438B2A72F849000E48EB /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42E32FC2A659FDA004A30DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E330C2A659FDC004A30DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E33162A659FDC004A30DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40A22EB2A72D32300FB550B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22F22A72E02000FB550B /* ListView.swift */,
+				B40A22F42A72E03600FB550B /* ListRowView.swift */,
+				B40A22F62A72E06F00FB550B /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B40A22EC2A72D33200FB550B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22EE2A72DF7700FB550B /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B40A22ED2A72DF3800FB550B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22F02A72DFFD00FB550B /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B42E32F62A659FDA004A30DE = {
+			isa = PBXGroup;
+			children = (
+				B42E33012A659FDA004A30DE /* menti */,
+				B42E33122A659FDC004A30DE /* mentiTests */,
+				B42E331C2A659FDC004A30DE /* mentiUITests */,
+				B42E33002A659FDA004A30DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B42E33002A659FDA004A30DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42E32FF2A659FDA004A30DE /* menti.app */,
+				B42E330F2A659FDC004A30DE /* mentiTests.xctest */,
+				B42E33192A659FDC004A30DE /* mentiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42E33012A659FDA004A30DE /* menti */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22ED2A72DF3800FB550B /* Models */,
+				B40A22EC2A72D33200FB550B /* ViewModels */,
+				B40A22EB2A72D32300FB550B /* Views */,
+				B42E33022A659FDA004A30DE /* mentiApp.swift */,
+				84A00CBE2B64ADCB00EEE8F8 /* WelcomeScreen.swift */,
+				B42E33042A659FDA004A30DE /* ContentView.swift */,
+				B4295A8B2A6EFB9D00696DCD /* MedView.swift */,
+				B4295A8D2A6EFBB900696DCD /* ResourcesView.swift */,
+				B4295A8F2A6EFBDE00696DCD /* ProfileView.swift */,
+				B4295A892A6EFB5300696DCD /* HomeView.swift */,
+				B4295A442A6ECDB400696DCD /* Info.plist */,
+				B42E33062A659FDC004A30DE /* Assets.xcassets */,
+				B458438B2A72F849000E48EB /* AppIcon.appiconset */,
+				B42E33082A659FDC004A30DE /* Preview Content */,
+			);
+			path = menti;
+			sourceTree = "<group>";
+		};
+		B42E33082A659FDC004A30DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4295A912A702B3500696DCD /* countries.swift */,
+				B42E33092A659FDC004A30DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B42E33122A659FDC004A30DE /* mentiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B42E33132A659FDC004A30DE /* mentiTests.swift */,
+			);
+			path = mentiTests;
+			sourceTree = "<group>";
+		};
+		B42E331C2A659FDC004A30DE /* mentiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B42E331D2A659FDC004A30DE /* mentiUITests.swift */,
+				B42E331F2A659FDC004A30DE /* mentiUITestsLaunchTests.swift */,
+			);
+			path = mentiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42E32FE2A659FDA004A30DE /* menti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42E33232A659FDC004A30DE /* Build configuration list for PBXNativeTarget "menti" */;
+			buildPhases = (
+				B42E32FB2A659FDA004A30DE /* Sources */,
+				B42E32FC2A659FDA004A30DE /* Frameworks */,
+				B42E32FD2A659FDA004A30DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = menti;
+			productName = menti;
+			productReference = B42E32FF2A659FDA004A30DE /* menti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B42E330E2A659FDC004A30DE /* mentiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42E33262A659FDC004A30DE /* Build configuration list for PBXNativeTarget "mentiTests" */;
+			buildPhases = (
+				B42E330B2A659FDC004A30DE /* Sources */,
+				B42E330C2A659FDC004A30DE /* Frameworks */,
+				B42E330D2A659FDC004A30DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42E33112A659FDC004A30DE /* PBXTargetDependency */,
+			);
+			name = mentiTests;
+			productName = mentiTests;
+			productReference = B42E330F2A659FDC004A30DE /* mentiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B42E33182A659FDC004A30DE /* mentiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42E33292A659FDC004A30DE /* Build configuration list for PBXNativeTarget "mentiUITests" */;
+			buildPhases = (
+				B42E33152A659FDC004A30DE /* Sources */,
+				B42E33162A659FDC004A30DE /* Frameworks */,
+				B42E33172A659FDC004A30DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42E331B2A659FDC004A30DE /* PBXTargetDependency */,
+			);
+			name = mentiUITests;
+			productName = mentiUITests;
+			productReference = B42E33192A659FDC004A30DE /* mentiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42E32F72A659FDA004A30DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B42E32FE2A659FDA004A30DE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B42E330E2A659FDC004A30DE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B42E32FE2A659FDA004A30DE;
+					};
+					B42E33182A659FDC004A30DE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B42E32FE2A659FDA004A30DE;
+					};
+				};
+			};
+			buildConfigurationList = B42E32FA2A659FDA004A30DE /* Build configuration list for PBXProject "menti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42E32F62A659FDA004A30DE;
+			productRefGroup = B42E33002A659FDA004A30DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42E32FE2A659FDA004A30DE /* menti */,
+				B42E330E2A659FDC004A30DE /* mentiTests */,
+				B42E33182A659FDC004A30DE /* mentiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42E32FD2A659FDA004A30DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42E330A2A659FDC004A30DE /* Preview Assets.xcassets in Resources */,
+				B458438C2A72F849000E48EB /* AppIcon.appiconset in Resources */,
+				B42E33072A659FDC004A30DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E330D2A659FDC004A30DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E33172A659FDC004A30DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42E32FB2A659FDA004A30DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4295A8A2A6EFB5300696DCD /* HomeView.swift in Sources */,
+				B4295A8C2A6EFB9D00696DCD /* MedView.swift in Sources */,
+				B40A22F32A72E02000FB550B /* ListView.swift in Sources */,
+				B42E33052A659FDA004A30DE /* ContentView.swift in Sources */,
+				B40A22F12A72DFFD00FB550B /* ItemModel.swift in Sources */,
+				84A00CBF2B64ADCB00EEE8F8 /* WelcomeScreen.swift in Sources */,
+				B42E33032A659FDA004A30DE /* mentiApp.swift in Sources */,
+				B4295A902A6EFBDE00696DCD /* ProfileView.swift in Sources */,
+				B40A22F52A72E03600FB550B /* ListRowView.swift in Sources */,
+				B40A22F72A72E06F00FB550B /* AddView.swift in Sources */,
+				B4295A8E2A6EFBB900696DCD /* ResourcesView.swift in Sources */,
+				B40A22EF2A72DF7700FB550B /* ListViewModel.swift in Sources */,
+				B4295A922A702B3500696DCD /* countries.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E330B2A659FDC004A30DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42E33142A659FDC004A30DE /* mentiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E33152A659FDC004A30DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42E33202A659FDC004A30DE /* mentiUITestsLaunchTests.swift in Sources */,
+				B42E331E2A659FDC004A30DE /* mentiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B42E33112A659FDC004A30DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42E32FE2A659FDA004A30DE /* menti */;
+			targetProxy = B42E33102A659FDC004A30DE /* PBXContainerItemProxy */;
+		};
+		B42E331B2A659FDC004A30DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42E32FE2A659FDA004A30DE /* menti */;
+			targetProxy = B42E331A2A659FDC004A30DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B42E33212A659FDC004A30DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42E33222A659FDC004A30DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42E33242A659FDC004A30DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"menti/Preview Content\"";
+				DEVELOPMENT_TEAM = 7T23573LB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = menti/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Menti;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosalcala.menti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B42E33252A659FDC004A30DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"menti/Preview Content\"";
+				DEVELOPMENT_TEAM = 7T23573LB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = menti/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Menti;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosalcala.menti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B42E33272A659FDC004A30DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosalcala.mentiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/menti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/menti";
+			};
+			name = Debug;
+		};
+		B42E33282A659FDC004A30DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosalcala.mentiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/menti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/menti";
+			};
+			name = Release;
+		};
+		B42E332A2A659FDC004A30DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosalcala.mentiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = menti;
+			};
+			name = Debug;
+		};
+		B42E332B2A659FDC004A30DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosalcala.mentiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = menti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42E32FA2A659FDA004A30DE /* Build configuration list for PBXProject "menti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42E33212A659FDC004A30DE /* Debug */,
+				B42E33222A659FDC004A30DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42E33232A659FDC004A30DE /* Build configuration list for PBXNativeTarget "menti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42E33242A659FDC004A30DE /* Debug */,
+				B42E33252A659FDC004A30DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42E33262A659FDC004A30DE /* Build configuration list for PBXNativeTarget "mentiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42E33272A659FDC004A30DE /* Debug */,
+				B42E33282A659FDC004A30DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42E33292A659FDC004A30DE /* Build configuration list for PBXNativeTarget "mentiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42E332A2A659FDC004A30DE /* Debug */,
+				B42E332B2A659FDC004A30DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B42E32F72A659FDA004A30DE /* Project object */;
+}
